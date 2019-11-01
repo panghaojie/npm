@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/panghaojie/npm/issues"
   },
-  "homepage": "https://github.com/panghaojie/npm#readme"
+  "homepage": "https://github.com/panghaojie/npm#readme",
+  "dependencies": {
+    "qrcode": "^1.4.2"
+  }
 }
