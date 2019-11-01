@@ -8,7 +8,7 @@
 # started
 ## install
 ```
-npm install qiao.util.js
+npm install phj-util
 ```
 
 # api
