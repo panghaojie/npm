@@ -12,7 +12,7 @@ npm install phj-util
 ```
 
 # api
-## qiao.qrcode
+## util.qrcode
 ```javascript
 import util  from 'phj-util'
 
@@ -20,21 +20,21 @@ let test = () => {
 	// need <div id="qrcode" style="width:100px;height:100px;"></div>
 	
 	// canvas
-	qiao.qrcode({
+	util.qrcode({
 		id	: 'qrcode',
 		type: 'canvas',
 		text: 'https://github.com/panghaojie/npm'
 	});
 
 	// img
-	qiao.qrcode({
+	util.qrcode({
 		id	: 'qrcode',
 		type: 'img',
 		text: 'https://github.com/panghaojie/npm'
 	});
 	
 	// svg
-	qiao.qrcode({
+	util.qrcode({
 		id	: 'qrcode',
 		type: 'svg',
 		text: 'https://github.com/panghaojie/npm'
