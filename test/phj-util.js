@@ -1,6 +1,6 @@
 import util  from '../lib/phj-util'
 
-let test = function () {
+let test = () => {
     // need <div id="qrcode" style="width:100px;height:100px;"></div>
 
     // canvas
