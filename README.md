@@ -44,4 +44,8 @@ let test = () => {
 test();
 ```
 # version
+## 0.0.1.20191104
+add keywords
+
 ## 0.0.1.20191101
+init
