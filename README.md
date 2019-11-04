@@ -14,37 +14,38 @@ npm install phj-util
 # api
 ## util.qrcode
 ```javascript
-import util  from 'phj-util'
+import {qrcode}  from 'phj-util'
 
-let test = () => {
-	// need <div id="qrcode" style="width:100px;height:100px;"></div>
-	
-	// canvas
-	util.qrcode({
-		id	: 'qrcode',
-		type: 'canvas',
-		text: 'https://github.com/panghaojie/npm'
-	});
+// need DOM
+// <div id="qrcode" style="width:100px;height:100px;"></div>
 
-	// img
-	util.qrcode({
-		id	: 'qrcode',
-		type: 'img',
-		text: 'https://github.com/panghaojie/npm'
-	});
-	
-	// svg
-	util.qrcode({
-		id	: 'qrcode',
-		type: 'svg',
-		text: 'https://github.com/panghaojie/npm'
-	});
-};
-
-test();
+/**
+ * @description: generate qrcode
+ * @param id(string): 'qrcode' ,id of dom
+ * @param type(string): 'canvas' || 'img' || 'svg'
+ * @param text(string): 'https://github.com/panghaojie/npm'
+ */
+qrcode({
+	id	: 'qrcode',
+	type: 'canvas',
+	text: 'https://github.com/panghaojie/npm'
+});
+qrcode({
+	id	: 'qrcode',
+	type: 'img',
+	text: 'https://github.com/panghaojie/npm'
+});
+qrcode({
+	id	: 'qrcode',
+	type: 'svg',
+	text: 'https://github.com/panghaojie/npm'
+});
 ```
 # version
-## 0.0.1.20191104
+## 0.0.3.20191104
+modify the mode of import
+
+## 0.0.2.20191104
 add keywords
 
 ## 0.0.1.20191101

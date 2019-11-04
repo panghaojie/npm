@@ -1,24 +1,24 @@
-import util  from '../lib/phj-util'
+import {qrcode}  from '../index'
 
 let test = () => {
     // need <div id="qrcode" style="width:100px;height:100px;"></div>
 
     // canvas
-    util.qrcode({
+    qrcode({
         id: 'qrcode',
         type: 'canvas',
         text: 'http://insistime.com/'
     });
 
     // img
-    util.qrcode({
+    qrcode({
         id: 'qrcode',
         type: 'img',
         text: 'http://insistime.com/'
     });
 
     // svg
-    util.qrcode({
+    qrcode({
         id: 'qrcode',
         type: 'svg',
         text: 'http://insistime.com/'

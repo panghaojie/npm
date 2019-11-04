@@ -1,17 +1,16 @@
 {
   "name": "phj-util",
-  "version": "0.0.2",
-  "description": "sound code for node package",
+  "version": "0.0.3",
+  "description": "nodejs tools",
   "main": "index.js",
   "keywords": [
-    "nodejs",
+    "qrcode",
     "tools"
   ],
   "scripts": {
     "test": "node ./test/phj-util.js",
-    "build": "babel es6-lib --presets babel-preset-es2015 --out-dir lib",
-    "index-build": "babel es6-index.js --presets babel-preset-es2015 --out-file index.js",
-    "prepublish": "npm run build && npm run index-build"
+    "build": "babel ./es6-lib/phj-util.js --presets babel-preset-es2015 --out-file ./lib/phj-util.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
