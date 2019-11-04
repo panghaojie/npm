@@ -1,6 +1,6 @@
 {
   "name": "phj-util",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "nodejs tools",
   "main": "index.js",
   "keywords": [

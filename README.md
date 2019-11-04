@@ -12,7 +12,7 @@ npm install phj-util
 ```
 
 # api
-## util.qrcode
+## qrcode
 ```javascript
 import {qrcode}  from 'phj-util'
 
@@ -42,6 +42,12 @@ qrcode({
 });
 ```
 # version
+## 0.0.5.20191104
+modify phj-util
+
+## 0.0.4.20191104
+modify index
+
 ## 0.0.3.20191104
 modify the mode of import
 
